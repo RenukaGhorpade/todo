@@ -1,4 +1,5 @@
-
+<html>
+    <script>
 var data = (localStorage.getItem('todoList')) ? JSON.parse(localStorage.getItem('todoList')):{
     todo: [],
     completed: []
@@ -120,3 +121,5 @@ var data = (localStorage.getItem('todoList')) ? JSON.parse(localStorage.getItem(
   
     list.insertBefore(item, list.childNodes[0]);
   }
+    <script>
+   <html>
